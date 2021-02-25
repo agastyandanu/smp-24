@@ -1,0 +1,33 @@
+RewriteEngine on
+
+
+ErrorDocument 403 /manpar/page_404.php
+ErrorDocument 404 /manpar/page_404.php
+ErrorDocument 500 /manpar/page_404.php
+
+
+RewriteRule ^home\.html$ index.php [L]
+
+RewriteRule ^profil-sekolah-([0-9]+)-([a-zA-Z0-9\-]{0,100})\.html$ index.php?page=pages/profil&q=$1&p=$2 [L]
+
+RewriteRule ^osim\.html$ index.php?page=pages/daftar_osim [L]
+RewriteRule ^osim-halaman-([0-9]+)\.html$ index.php?page=pages/daftar_osim&halaman=$1 [L]
+RewriteRule ^berita-osim-([0-9]+)\.html$ index.php?page=pages/detail_osim&iddetail=$1 [L]
+
+RewriteRule ^pengumuman\.html$ index.php?page=pages/daftar_pengumuman [L]
+RewriteRule ^pengumuman-halaman-([0-9]+)\.html$ index.php?page=pages/daftar_pengumuman&halaman=$1 [L]
+RewriteRule ^detail-pengumuman-([0-9]+)\.html$ index.php?page=pages/detail_pengumuman&idpengumuman=$1 [L]
+
+RewriteRule ^agenda\.html$ index.php?page=pages/daftar_agenda [L]
+RewriteRule ^agenda-halaman-([0-9]+)\.html$ index.php?page=pages/daftar_agenda&halaman=$1 [L]
+RewriteRule ^detail-agenda-([0-9]+)\.html$ index.php?page=pages/detail_agenda&idagenda=$1 [L]
+
+
+RewriteRule ^galery-album\.html$ index.php?page=pages/galery_album [L]
+RewriteRule ^galery-([0-9]+)\.html$ index.php?page=pages/galery&id=$1 [L]
+RewriteRule ^galery-halaman-([0-9]+)\.html$ index.php?page=pages/galery&halaman=$1 [L]
+
+RewriteRule ^download\.html$ index.php?page=pages/download [L]
+
+RewriteRule ^guru\.html$ index.php?page=pages/daftar_guru [L]
+RewriteRule ^kalender\.html$ index.php?page=pages/kalender [L]

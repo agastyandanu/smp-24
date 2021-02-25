@@ -1,0 +1,8 @@
+[28-Nov-2020 14:10:17 Asia/Jakarta] PHP Notice:  Undefined index: tgl_post in /home/mankopar/public_html/pages/detail_agenda.php on line 24
+[28-Nov-2020 14:10:17 Asia/Jakarta] PHP Notice:  Undefined offset: 2 in /home/mankopar/public_html/koneksi.php on line 40
+[28-Nov-2020 14:10:17 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/mankopar/public_html/koneksi.php on line 40
+[28-Nov-2020 14:10:17 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/mankopar/public_html/koneksi.php on line 40
+[07-Dec-2020 12:50:58 Asia/Jakarta] PHP Notice:  Undefined index: tgl_post in /home/mankopar/public_html/pages/detail_agenda.php on line 24
+[07-Dec-2020 12:50:58 Asia/Jakarta] PHP Notice:  Undefined offset: 2 in /home/mankopar/public_html/koneksi.php on line 40
+[07-Dec-2020 12:50:58 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/mankopar/public_html/koneksi.php on line 40
+[07-Dec-2020 12:50:58 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/mankopar/public_html/koneksi.php on line 40
